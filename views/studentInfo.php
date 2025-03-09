@@ -54,15 +54,20 @@
         <div class="addStudent">
             <h3>Add Student</h3>
             <form method="POST">
-                <label>Student Name:</label>
-                <input id="studentname" type="text" name="studentname" placeholder="Student Name" required>
-
-                <label>Student ID:</label>
-                <input id="studentid" type="text" name="studentid" placeholder="Student ID" required>
-
-                <label>Student Email:</label>
-                <input id="studentemail" type="email" name="studentemail" placeholder="Student Email" required>
-
+                <table>
+                    <tr>
+                        <td><label for=""studentname">Student Name:</label></td>
+                        <td><input id="studentname" type="text" name="studentname" placeholder="Student Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Student ID:</label></td>
+                        <td><input id="studentid" type="text" name="studentid" placeholder="Student ID" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Student Email:</label></td>
+                        <td><input id="studentemail" type="email" name="studentemail" placeholder="Student Email" required></td>
+                    </tr>                    
+                </table>
                 <button type="submit" name="add_student">Add Student</button>
             </form>
         </div>
